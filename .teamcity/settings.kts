@@ -34,7 +34,7 @@ project {
 }
 
 object BuildDummyApp : BuildType({
-    name = "Build dummy app"
+    name = "App controlled by git"
 
     vcs {
         root(HttpsGithubComSpringProjectsSpringPetclinicGit)
